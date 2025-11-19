@@ -1,10 +1,4 @@
-// Khai báo một struct Book chứa các thành viên:
-// title: kiểu char[100] (dùng để lưu tên sách).
-// author: kiểu char[50] (dùng để lưu tên tác giả).
-// price: kiểu float (dùng để lưu giá của cuốn sách).
-// Khai báo một mảng books[3] chứa 3 cuốn sách.
-// Nhập thông tin cho từng cuốn sách từ người dùng, bao gồm tên sách, tác giả và
-// giá. In thông tin của tất cả các cuốn sách ra màn hình.
+
 #include <stdio.h>
 #include <string.h>
 struct Book {

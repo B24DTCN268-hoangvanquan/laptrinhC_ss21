@@ -1,18 +1,4 @@
-// Khai báo một struct Address với các thành viên:
 
-// street: kiểu char[100] (dùng để lưu tên đường).
-// city: kiểu char[50] (dùng để lưu tên thành phố).
-// zip: kiểu int (dùng để lưu mã bưu điện).
-// Khai báo một struct Person với các thành viên:
-
-// name: kiểu char[50] (dùng để lưu tên của người).
-// age: kiểu int (dùng để lưu tuổi của người).
-// address: kiểu Address (dùng để lưu thông tin địa chỉ của người, đây là một
-// struct lồng nhau). Khai báo một biến person1 kiểu Person, nhập thông tin của
-// người này từ người dùng, bao gồm cả thông tin địa chỉ.
-
-// In thông tin của person1 ra màn hình, bao gồm cả thông tin cá nhân và thông
-// tin địa chỉ.
 #include <stdio.h>
 #include <string.h>
 struct Address {

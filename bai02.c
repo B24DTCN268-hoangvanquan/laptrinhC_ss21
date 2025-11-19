@@ -1,10 +1,4 @@
-// Khai báo một struct có tên Student chứa các thành viên:
-// name: kiểu char[50] (dùng để lưu tên của học sinh).
-// age: kiểu int (dùng để lưu tuổi của học sinh).
-// grade: kiểu float (dùng để lưu điểm trung bình của học sinh).
-// Khai báo một biến student1 kiểu Student, sau đó nhập các giá trị từ bàn phím
-// cho các thuộc tính: tên, tuổi và điểm trung bình của học sinh từ người dùng.
-// In thông tin của học sinh student1 ra màn hình.
+
 
 #include <stdio.h>
 #include <string.h>
